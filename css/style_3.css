@@ -1,0 +1,64 @@
+h1 {
+    text-indent: 2rem;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+#info,
+#contact,
+#ability,
+#edu,
+#project {
+    border-bottom: #969696 solid 1px;   
+    height: 120px;
+}
+h1 button {
+ height: 32px;
+ margin-right: 12px;
+}
+
+
+div:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+h4 {
+    height: 100%;
+    width: 100px;
+    background-color: #969696;
+    border-bottom:#fff solid 1px;
+    margin-bottom: -1px;
+    float: left;
+    line-height: 120px;
+
+}
+
+#info li,
+#contact li {
+    float: left;
+}
+
+#info li:nth-child(2n+1),
+#contact li:nth-child(2n+1) {
+    margin-right: 1rem;
+}
+
+#info li:nth-child(2n),
+#contact li:nth-child(2n) {
+    margin-right: 2rem;
+}
+
+#info ul:after,
+#contact ul:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+#ability li:nth-child(2n),
+#edu li:nth-child(2n),
+#project li:nth-child(2n) {
+    margin-bottom: 1rem;
+}

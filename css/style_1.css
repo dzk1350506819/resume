@@ -1,0 +1,33 @@
+h1, 
+div {
+    margin: 15px 5px;
+}
+h4 {
+    margin-bottom: 20px;
+}
+#info li,
+#contact li {
+    float: left;
+}
+
+#info li:nth-child(2n+1),
+#contact li:nth-child(2n+1) {
+    margin-right: 1rem;
+}
+
+#info li:nth-child(2n),
+#contact li:nth-child(2n) {
+    margin-right: 2rem;
+}
+
+#info ul:after,
+#contact ul:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+#ability li:nth-child(2n),
+#edu li:nth-child(2n),
+#project li:nth-child(2n) {
+    margin-bottom: 1rem;
+}
